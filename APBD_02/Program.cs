@@ -3,16 +3,16 @@
 Console.WriteLine("Hello, World!");
 
 
-static double GetAVG(int[] tab)
+static double GetMax(int[] tab)
 {
-    int sum = 0;
+    int max = 0;
     for (int i = 0; i < tab.Length; i++)
     {
-        sum += tab[i];
+        if (tab[i] > max) max = tab[i];
     }
 
-    return sum / tab.Length;
+    return max;
 }
 
 int[] t = { 1, 2, 3, 4, 5 };
-Console.WriteLine(GetAVG(t));
+Console.WriteLine(GetMax(t));
