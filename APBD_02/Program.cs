@@ -16,3 +16,4 @@ static double GetMax(int[] tab)
 
 int[] t = { 1, 2, 3, 4, 5 };
 Console.WriteLine(GetMax(t));
+Console.WriteLine("wooo");
