@@ -6,9 +6,9 @@ Console.WriteLine("Hello, World!");
 static double GetMax(int[] tab)
 {
     int max = 0;
-    for (int i = 0; i < tab.Length; i++)
+    for (int k = 0; k < tab.Length; k++)
     {
-        if (tab[i] > max) max = tab[i];
+        if (tab[k] > max) max = tab[k];
     }
 
     return max;
