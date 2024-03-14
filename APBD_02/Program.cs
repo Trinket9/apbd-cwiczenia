@@ -5,10 +5,10 @@ Console.WriteLine("Hello, World!");
 
 static double GetMax(int[] tab)
 {
-    int max = 0;
-    for (int k = 0; k < tab.Length; k++)
+    int max = 0; 
+    for (int j = 0; j < tab.Length; j++)
     {
-        if (tab[k] > max) max = tab[k];
+        if (tab[j] > max) max = tab[j];
     }
 
     return max;
@@ -16,3 +16,4 @@ static double GetMax(int[] tab)
 
 int[] t = { 1, 2, 3, 4, 5 };
 Console.WriteLine(GetMax(t));
+Console.WriteLine("wooo");
